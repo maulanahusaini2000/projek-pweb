@@ -1,0 +1,45 @@
+
+
+.header{
+	background: red;
+	text-align: center;
+	padding: 20px;
+}
+
+.menu{
+	background: yellow;
+	list-style: none;
+	float: left;	
+	width: 20%;
+	text-align: center;
+	padding: 20px;
+	height: 400px;
+
+}
+.menu li{
+	display: inline;
+}
+.menu a{
+	display: inline-block;
+	color: red;
+	padding: 16px 20px;
+	text-decoration: none;
+	font size: 25px;
+}
+.menu a:hover{
+	color: blue;
+}
+.content{
+	background-image : url("spiderman4.jpg ");
+	width:50px
+	text-align: center;
+	height: 440px;
+	
+}
+
+.footer{
+	width:98.5%;
+	padding: 10px;
+	background: blue;
+	text-align: center;
+}

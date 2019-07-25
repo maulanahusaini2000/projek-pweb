@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>GUEST BOOK</title>
+</head>
+<center>
+<body bgcolor="orange">
+
+
+ 
+   <div class="container">		
+   <div align="center"><strong><font color="red" size="20" face="geramond, gill sans, cambria">BUKU TAMU </font></strong></div>
+<form action="proses.php" method="post">
+  <div class="form-group">
+    <label for="nama" ><font>Nama Lengkap:</font></label>
+    <input type="text" name="nama" class="form-control" id="nama">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font>Alamat:</font></label>
+    <input type="text" name="alamat" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+  <label for="jk"><font>Jenis Kelamin:</font></label>
+  <select class="form-control" name="jk" id="jk">
+    <option>Laki-laki</option>
+    <option>Perempuan</option>
+    </select>
+</div>
+  <div class="form-group">
+  </div>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+</form>
+    <br>
+    <a align="center" class=btn href=profil.php>Lihat Jumlah Pengunjung </a>
+    <br>
+    <a href="index.html">HOME</a>
+   </div>
+ 
+</body>
+</center>
+</html>
